@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: I'm a dork but hopefully an interesting dork
 bigimg: /img/presentation.jpg
 ---
 
