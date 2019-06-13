@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: I'm a dork but hopefully an interesting dork
+image: /img/profile.jpg
 ---
 
 My name is Paul Johnson. I'm a political scientist currently completing a PhD at University of Houston. My subfield is comparative politics, and I specialize in political parties, elections, and quantitative methods. My research focus is new party success and the rapid rise of new parties in established democracies and stable party systems.
