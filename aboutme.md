@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: I'm a dork but hopefully an interesting dork
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Paul Johnson. I'm a political scientist currently completing a PhD at University of Houston. My subfield is comparative politics, and I specialize in political parties, elections, and quantitative methods. My research focus is new party success and the rapid rise of new parties in established democracies and stable party systems.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I am also interested in the application of the quantitative methods to sports, football (soccer) especially. On occasion, I write for [Fear The Wall](http://www.fearthewall.com), applying some of the methods I use in my research to the domain of German football and Borussia Dortmund.
