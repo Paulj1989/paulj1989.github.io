@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Value of Expected Goals (xG)
-bigimg: /img/bvb.jpg
+image: /img/hamburg.jpg
+bigimg: /img/hamburg.jpg
 show-avatar: false
 ---
 
