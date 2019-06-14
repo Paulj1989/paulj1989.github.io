@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About me
 bigimg: /img/tube.jpg
 ---
 
