@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 bigimg: noucamp.jpg
 published: true
 ---

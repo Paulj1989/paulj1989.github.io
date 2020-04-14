@@ -24,6 +24,7 @@ description: Machine Learning & Data Analysis for Politics & Sport
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Research: "research"
   Projects:
     - Soccer Analysis: "soccer"
     - Fear The Wall: "http://www.fearthewall.com"
