@@ -1,9 +1,10 @@
 ---
 layout: page
-bigimg: noucamp.jpg
+bigimg: "/img/noucamp.jpg"
+title: Soccer Analysis
+subtitle: Applying quantitative methods to football/soccer
 published: true
 ---
-# Soccer Analysis
 
 As a side-project/hobby, I write about football. Some of my best work can be found below:
 

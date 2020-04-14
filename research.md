@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Research
+subtitle: Ongoing & Published Research in Political Science
 published: true
 ---
-# Research
 
-## Working Papers
+### Working Papers
 
 The Nationalization of the Mexican Party System (with Franciso Cantu)
 
