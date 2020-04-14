@@ -3,7 +3,7 @@ layout: page
 published: true
 ---
 
-![]("/img/profile.jpg")
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/Paulj1989/Paulj1989.github.io/master/img/profile.jpg" /></div>
 
 My name is Paul Johnson. I am a political scientist currently completing a PhD at University of Houston. My subfield is comparative politics, and I specialize in political parties, elections, and quantitative methods. My research focus is party and party system change, in particular studying the recent rise of new challenger parties.
 
