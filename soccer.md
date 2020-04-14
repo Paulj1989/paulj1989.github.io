@@ -3,6 +3,7 @@ layout: page
 bigimg: noucamp.jpg
 published: true
 ---
+# Soccer Analysis
 
 As a side-project/hobby, I write about football. Some of my best work can be found below:
 

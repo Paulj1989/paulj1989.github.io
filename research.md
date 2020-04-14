@@ -2,6 +2,7 @@
 layout: page
 published: true
 ---
+# Research
 
 ## Working Papers
 
