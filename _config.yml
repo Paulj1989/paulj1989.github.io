@@ -17,7 +17,7 @@ description: Machine Learning & Data Analysis for Politics & Sport
 url: "www.paulrjohnson.net"
 
 # baseurl should be an empty string
-baseurl: ""
+baseurl: "/"
 
 # --- Navigation bar options --- #
 
