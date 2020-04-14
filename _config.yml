@@ -25,7 +25,7 @@ description: Machine Learning & Data Analysis for Politics & Sport
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Soccer Analysis: "soccer.md"
+    - Soccer Analysis: "/_pages/soccer"
     - Fear The Wall: "http://www.fearthewall.com"
   GitHub: "https://github.com/Paulj1989"
   
