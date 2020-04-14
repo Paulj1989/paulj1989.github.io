@@ -1,5 +1,15 @@
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
+
 # --- General options --- #
 
+# Name of website
+title: Paul Johnson
+
+# Short description of your site
+description: Machine Learning & Data Analysis for Politics & Sport
+
+# --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
@@ -8,14 +18,6 @@
 
 # baseurl should be an empty string
 #baseurl: ""
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
-title: Paul Johnson
-
-# Short description of your site
-description: Machine Learning & Data Analysis for Politics & Sport
 
 # --- Navigation bar options --- #
 
@@ -26,14 +28,14 @@ navbar-links:
     - Soccer Analysis: "soccer"
     - Fear The Wall: "http://www.fearthewall.com"
   GitHub: "https://github.com/Paulj1989"
-  
+
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
- avatar: "/img/profile.jpg"
+avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: "/img/profile.jpg"
+# title-img: /path/to/image
 
 # --- Background colour/image options --- #
 
@@ -52,9 +54,9 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/presentation.jpg"
+# navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
-# page-img: "/img/presentation.jpg"
+# page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
@@ -68,9 +70,10 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "pjohnson7@uh.edu"
-  github: paulj1989
+  #  facebook:
+  github: Paulj1989
   twitter: paul_johnson89
 #  reddit: yourname
 #  linkedin: daattali
@@ -88,12 +91,12 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
+  github: true
+  email: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -120,22 +123,28 @@ share-links-active:
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: ""
 
-# If you want to use JustComments fill with the API Key
-#just-comments: "ABCD-EFGH-IJKL"
-
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
 
-# Staticman support
+# To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
   repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
+  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
   reCaptcha:
-    # reCaptcha for Staticman (OPTIONAL)
+    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
     siteKey  : # Use your own site key, you need to apply for one on Google
     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+
+# To use Utterances comments: (1) fill in repository (make sure the repository is public), (2) Enable Issues in your repository, (3) Install the Utterances app in your repository https://github.com/apps/utterances
+# See more details about the parameters below at https://utteranc.es/
+utterances:
+  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  issue-term: title   # Mapping between blog posts and GitHub issues
+  theme: github-light # Utterances theme
+  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
 
 # --- Misc --- #
 
@@ -149,6 +158,9 @@ excerpt_length: 50
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
 title-separator: "-"
+
+# Ruby Date Format
+date_format: "%B %-d, %Y"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -170,7 +182,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
