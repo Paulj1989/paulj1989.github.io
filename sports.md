@@ -1,8 +1,8 @@
 ---
 layout: page
 bigimg: "/img/noucamp.jpg"
-title: Soccer Analysis
-subtitle: Applying quantitative methods to football/soccer
+title: Sports Analysis
+subtitle: Applying quantitative methods to the study of sports, particularly football (soccer)
 published: true
 ---
 
