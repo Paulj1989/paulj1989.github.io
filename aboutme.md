@@ -1,6 +1,5 @@
 ---
 layout: page
-bigimg: /img/tube.jpg
 published: true
 ---
 
