@@ -1,6 +1,7 @@
 ---
 layout: page
 published: true
+show-avatar: false
 ---
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/Paulj1989/Paulj1989.github.io/master/img/profile.jpg" /></div>
