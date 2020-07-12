@@ -7,8 +7,8 @@ published: true
 
 ### Working Papers
 
-The Nationalization of the Mexican Party System (with Francisco Cantu)
+- The Nationalization of the Mexican Party System (with Francisco Cantu)
 
-Hypothesis Testing for Reliability Statistics: A Permutation Approach (with Justin Kirkland)
+- Hypothesis Testing for Reliability Statistics: A Permutation Approach (with Justin Kirkland)
 
-When & Why Do Politicians Defect from Their Party and Form Spin-Offs?
+- When & Why Do Politicians Defect from Their Party and Form Spin-Offs?
