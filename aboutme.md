@@ -14,18 +14,19 @@ I am also interested in the application of these same quantitative methods to sp
 
 ## Skills
 
-### Proficient
+### Fluent
 
 - R/Python/SQL
 - LaTeX
 - Markdown
 - Git
 
-### Capable
+### Proficient
 
 - Julia
 - Javascript
 - Html
+- Jekyll
 - Bash
 - Inkscape/GIMP
 - Audacity
