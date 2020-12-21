@@ -14,7 +14,6 @@ author: Paul Johnson
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
   Research: "research"
   Blog: "blog"
   Projects:
@@ -22,6 +21,7 @@ navbar-links:
     - Volleyball Analytics: "volleyball"
     - NLP: "nlp"
   GitHub: "https://github.com/Paulj1989"
+  CV: "cv.html"
 
 # --- Logo --- #
 
