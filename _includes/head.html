@@ -68,19 +68,13 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 
-  {% if page.googlefonts %}
-    {% for font in page.googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
-  {% endif %}
-
-    <!-- Facebook OpenGraph tags -->
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">
   {% endif %}
@@ -140,7 +134,6 @@
   <meta name="twitter:image" content="{{ img | absolute_url }}">
   {% endif %}
 
-  {% if site.matomo %}
   {% include matomo.html %}
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
